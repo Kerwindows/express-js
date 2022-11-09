@@ -1,15 +1,15 @@
-## This file is my personal experimentation with Node and express
+# This file is my personal experimentation with Node and express
 
 In package.json each example will execute based on the key value pair in the scripts object
 
-# Install
+## Install
 
-npm i express
-npm i nodemon --save--dev to save to devDepedancies
+`npm i express`
+`npm i nodemon` --save--dev to save to devDepedancies
 
-# Run
+## Run
 
-npm run startExpress1
+~npm run startExpress1~
 or
 npm run startExpress2
 or
