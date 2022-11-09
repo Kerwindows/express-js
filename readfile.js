@@ -17,11 +17,18 @@ console.log("2 Sync", file.toString());
 
 //APPEND
 //Each time this file runs it appends to the file
-fs.appendFile("./hello.txt", " This is so cool", (err) => {
+fs.appendFile("./hello.txt", " This line was appended.", (err) => {
   if (err) {
     console.log(err);
   }
 });
-// This will add lines to a to the file
 
 //WRITE
+fs.writeFile("bye.txt", "Sad to see you go", (err) => {
+  if (err) console.log(err);
+  else {
+    console.log("File written successfully\n");
+    console.log("The written has the following contents:");
+    console.log(fs.readFileSync("bye.txt", "utf8"));
+  }
+});
