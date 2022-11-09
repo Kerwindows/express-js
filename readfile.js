@@ -32,3 +32,10 @@ fs.writeFile("bye.txt", "Sad to see you go", (err) => {
     console.log(fs.readFileSync("bye.txt", "utf8"));
   }
 });
+
+//DELETE
+// fs.unlink("./bye.txt", (err) => {
+//   if (err) {
+//     console.log(err);
+//   }
+// });
