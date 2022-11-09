@@ -4,7 +4,7 @@ In package.json each example will execute based on the key value pair in the scr
 
 ## Install
 
-`npm i express` 
+`npm i express`
 `npm i nodemon --save--dev to save` to devDepedancies
 
 ## Run
