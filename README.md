@@ -1,4 +1,4 @@
-# This file is my personal experimentation with Node and express
+# This is my personal experimentation with Node and express
 
 In package.json each example will execute based on the key value pair in the scripts object
 
